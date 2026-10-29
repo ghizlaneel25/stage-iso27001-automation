@@ -1,0 +1,96 @@
+controle,statut,date_scan,detail,Respecte loi 05.20,Description,Type d'automatisation,Lien loi 05.20
+A.5.07,CONFORME,2026-07-24T09:07:14.937504,Vérification manuelle : 	politique existe,NON,À définir,Manuel (saisie),Gouvernance et organisation
+A.5.07,A_REVOIR,2026-07-24T09:07:38.715852,Vérification manuelle : non imp,NON,À définir,Manuel (saisie),Gouvernance et organisation
+A.5.08,A_REVOIR,2026-07-24T09:07:44.124013,Vérification manuelle : non,NON,À définir,Manuel (saisie),Gouvernance et organisation
+A.5.09,CONFORME,2026-07-24T09:07:48.444129,Vérification manuelle : p e,NON,À définir,Manuel (saisie),Gouvernance et organisation
+A.5.1,CONFORME,2026-07-16T20:38:01.764395,"Politique: Aucune politique, Contact: Aucun contact",NON,Politiques de sécurité,Automatique (script SSH),Gouvernance et organisation
+A.5.10,A_REVOIR,2026-07-24T09:07:54.512894,Vérification manuelle : q,NON,Utilisation acceptable des informations et actifs,Manuel (saisie),Gouvernance et organisation
+A.5.11,CONFORME,2026-07-24T09:07:59.456760,Vérification manuelle : e,NON,Retour des actifs,Manuel (saisie),Gouvernance et organisation
+A.5.12,NON_APPLICABLE,2026-07-24T09:08:08.909927,Vérification manuelle : f,NON,Classification des informations,Manuel (saisie),Gouvernance et organisation
+A.5.13,CONFORME,2026-07-24T09:08:12.889069,Vérification manuelle : w,NON,Étiquetage des informations,Manuel (saisie),Gouvernance et organisation
+A.5.14,CONFORME,2026-07-24T09:08:15.076081,Vérification manuelle : ,NON,Transfert des informations,Manuel (saisie),Gouvernance et organisation
+A.5.15,A_REVOIR,2026-07-24T09:08:17.406365,Vérification manuelle : ,NON,Contrôle d'accès,Manuel (saisie),Gouvernance et organisation
+A.5.16,CONFORME,2026-07-24T09:08:19.396777,Vérification manuelle : ,NON,Gestion des identités,Manuel (saisie),Gouvernance et organisation
+A.5.17,CONFORME,2026-07-24T09:08:27.829785,Vérification manuelle : 1,NON,Informations d'authentification,Manuel (saisie),Gouvernance et organisation
+A.5.18,CONFORME,2026-07-24T09:08:30.922633,Vérification manuelle : 1,NON,Droits d'accès,Manuel (saisie),Gouvernance et organisation
+A.5.19,CONFORME,2026-07-24T09:08:32.885823,Vérification manuelle : 1,NON,Sécurité de l'information dans les relations avec les fournisseurs,Manuel (saisie),Gouvernance et organisation
+A.5.2,CONFORME,2026-07-16T22:18:19.463946,"Fichier: /etc/security/politique_securite.md, Date: 2026-07-17",NON,Rôles et responsabilités,Automatique (script SSH),Gouvernance et organisation
+A.5.20,CONFORME,2026-07-24T09:08:34.606974,Vérification manuelle : 1,NON,Traitement de la sécurité de l'information dans les accords avec les fournisseurs,Manuel (saisie),Gouvernance et organisation
+A.5.21,CONFORME,2026-07-24T09:08:36.526617,Vérification manuelle : 1,NON,Gestion de la sécurité de l'information dans la chaîne d'approvisionnement TIC,Manuel (saisie),Gouvernance et organisation
+A.5.22,CONFORME,2026-07-24T09:08:38.816454,Vérification manuelle : 1,NON,"Suivi, révision et gestion des changements des services fournisseurs",Manuel (saisie),Gouvernance et organisation
+A.5.23,CONFORME,2026-07-24T09:08:40.753566,Vérification manuelle : 1,NON,Sécurité de l'information pour l'utilisation des services cloud,Manuel (saisie),Gouvernance et organisation
+A.5.24,CONFORME,2026-07-24T09:08:43.070329,Vérification manuelle : ,NON,Planification et préparation de la gestion des incidents de sécurité,Manuel (saisie),Gouvernance et organisation
+A.5.25,A_REVOIR,2026-07-24T09:08:44.459211,Vérification manuelle : ,NON,Évaluation et décision sur les événements de sécurité,Manuel (saisie),Gouvernance et organisation
+A.5.26,A_REVOIR,2026-07-24T09:08:46.223812,Vérification manuelle : ,NON,Réponse aux incidents de sécurité,Manuel (saisie),Gouvernance et organisation
+A.5.27,A_REVOIR,2026-07-24T09:08:47.019157,Vérification manuelle : ,NON,Apprentissage des incidents de sécurité,Manuel (saisie),Gouvernance et organisation
+A.5.28,A_REVOIR,2026-07-24T09:08:47.808916,Vérification manuelle : ,NON,Collecte de preuves,Manuel (saisie),Gouvernance et organisation
+A.5.29,A_REVOIR,2026-07-24T09:08:48.533626,Vérification manuelle : ,NON,Sécurité de l'information en cas de perturbation,Manuel (saisie),Gouvernance et organisation
+A.5.3,CONFORME,2026-07-14T16:23:37.650889,Admins: ghiz,NON,Ségrégation des tâches,Automatique (script SSH),Gouvernance et organisation
+A.5.30,A_REVOIR,2026-07-24T09:08:49.069059,Vérification manuelle : ,NON,Préparation des TIC à la continuité d'activité,Manuel (saisie),Gouvernance et organisation
+A.5.31,A_REVOIR,2026-07-24T09:08:49.656841,Vérification manuelle : ,NON,"Exigences légales, réglementaires et contractuelles",Manuel (saisie),Gouvernance et organisation
+A.5.32,A_REVOIR,2026-07-24T09:08:50.117002,Vérification manuelle : ,NON,Droits de propriété intellectuelle,Manuel (saisie),Gouvernance et organisation
+A.5.33,A_REVOIR,2026-07-24T09:08:50.747497,Vérification manuelle : ,NON,Protection des enregistrements,Manuel (saisie),Gouvernance et organisation
+A.5.34,A_REVOIR,2026-07-24T09:08:51.387135,Vérification manuelle : ,NON,Confidentialité et protection des PII,Manuel (saisie),Gouvernance et organisation
+A.5.35,A_REVOIR,2026-07-24T09:08:52.095236,Vérification manuelle : ,NON,Revue indépendante de la sécurité de l'information,Manuel (saisie),Gouvernance et organisation
+A.5.36,A_REVOIR,2026-07-24T09:08:52.775005,Vérification manuelle : ,NON,"Conformité avec les politiques, règles et normes",Manuel (saisie),Gouvernance et organisation
+A.5.37,A_REVOIR,2026-07-24T09:08:53.159119,Vérification manuelle : ,NON,Procédures opérationnelles documentées,Manuel (saisie),Gouvernance et organisation
+A.5.4,CONFORME,2026-07-16T22:18:21.086819,Contacts: Contact sécurité : ghiz@localhost Contact sécurité : ghiz@localhost,NON,Responsabilités de la direction,Automatique (script SSH),Gouvernance et organisation
+A.5.5,CONFORME,2026-07-14T16:23:57.366167,"Fichiers sudoers: 3, Config: 9",NON,Contact avec les autorités,Automatique (script SSH),Gouvernance et organisation
+A.5.6,CONFORME,2026-07-14T16:23:59.006784,"Fichiers sensibles: -rw-r--r-- /etc/logrotate.conf
+-rw-r--r-- /etc/lvm/lvmlocal.conf
+-rw-r--r-- /etc/udisks2/udisks2.con...",NON,Contact avec les groupes d'intérêt,Automatique (script SSH),Gouvernance et organisation
+A.5.7,EN_ATTENTE,,Description: Renseignement sur les menaces,NON,Renseignement sur les menaces,Manuel (saisie),Gouvernance et organisation
+A.5.8,EN_ATTENTE,,Description: Sécurité de l'information dans la gestion de projet,NON,Sécurité de l'information dans la gestion de projet,Manuel (saisie),Gouvernance et organisation
+A.5.9,EN_ATTENTE,,Description: Inventaire des informations et actifs,NON,Inventaire des informations et actifs,Manuel (saisie),Gouvernance et organisation
+A.8.1,CONFORME,2026-07-14T16:04:49.677093,"Packages: 632, Services actifs: 32",OUI,À définir,Automatique (script SSH),Sécurité des systèmes d'information
+A.8.10,A_REVOIR,2026-07-16T22:18:23.119656,"Non autorisés: ii  openssh-sftp-server                    1:8.9p1-3ubuntu0.16                     amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
+rc  telnet                                 0.17-44build1                           amd64        basic telnet client",OUI,À définir,Automatique (script SSH),Sécurité des systèmes d'information
+A.8.10,A_REVOIR,2026-07-23T21:36:26.867722,"Non autorisés: ii  openssh-sftp-server                    1:8.9p1-3ubuntu0.16                     amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
+rc  telnet                                 0.17-44build1                           amd64        basic telnet client",OUI,À définir,Automatique (script SSH),Sécurité des systèmes d'information
+A.8.11,CONFORME,2026-07-14T16:05:14.131721,"Permissions: -rw-r--r-- 1 root root   1883 Jul 11 19:37 /etc/passwd
+-rw-r----- 1 root shadow 1083 Jul 11 19:37 /e...",OUI,À définir,Automatique (script SSH),Sécurité des systèmes d'information
+A.8.12,CONFORME,2026-07-14T16:24:19.660428,"Clés SSH: 3, Certificats: 249",OUI,À définir,Automatique (script SSH),Sécurité des systèmes d'information
+A.8.13,CONFORME,2026-07-11T16:20:56.069094,Backup: Aucun backup,OUI,À définir,Automatique (script SSH),Sécurité des systèmes d'information
+A.8.14,CONFORME,2026-07-14T16:24:21.417284,"Crypto config: Ciphers aes256-ctr,aes192-ctr,aes128-ctr
+MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openss...",OUI,À définir,Automatique (script SSH),Sécurité des systèmes d'information
+A.8.15,CONFORME,2026-07-16T22:18:24.694658,"auditd: active, taille: 33K, logs récents: 1",OUI,À définir,Automatique (script SSH),Sécurité des systèmes d'information
+A.8.16,CONFORME,2026-07-14T16:24:22.950217,"Updates sec: 64, Auto: active",OUI,À définir,Automatique (script SSH),Sécurité des systèmes d'information
+A.8.17,CONFORME,2026-07-16T22:18:26.752646,"chrony: active, NTP synchro: yes",OUI,À définir,Automatique (script SSH),Sécurité des systèmes d'information
+A.8.18,CONFORME,2026-07-14T16:24:34.561074,"Journal: 5, Dmesg: 0",OUI,À définir,Automatique (script SSH),Sécurité des systèmes d'information
+A.8.19,CONFORME,2026-07-18T22:18:37.797186,"Backups: 1, Cron: 0",OUI,À définir,Automatique (script SSH),Sécurité des systèmes d'information
+A.8.19,CONFORME,2026-07-23T21:36:28.957218,"Backups: 1, Cron: 0",OUI,À définir,Automatique (script SSH),Sécurité des systèmes d'information
+A.8.2,CONFORME,2026-07-11T16:18:43.411834,1 comptes sudo: ghiz,OUI,À définir,Automatique (script SSH),Sécurité des systèmes d'information
+A.8.20,A_REVOIR,2026-07-18T22:18:39.307241,"nftables: active, règles: 0, UFW: inactif",OUI,À définir,Automatique (script SSH),Sécurité des systèmes d'information
+A.8.20,A_REVOIR,2026-07-23T21:36:31.732498,"nftables: active, règles: 0, UFW: inactif",OUI,À définir,Automatique (script SSH),Sécurité des systèmes d'information
+A.8.21,CONFORME,2026-07-16T22:18:30.855039,"Actif: active, Activé: enabled",OUI,À définir,Automatique (script SSH),Sécurité des systèmes d'information
+A.8.22,CONFORME,2026-07-14T16:24:41.430158,"Policy: PASS_MAX_DAYS	99999
+PASS_MIN_DAYS	0..., User: Last password change					: Jul 09, 2026...",OUI,À définir,Automatique (script SSH),Sécurité des systèmes d'information
+A.8.23,CONFORME,2026-07-14T16:24:43.007533,"Fichiers: /etc/udisks2/udisks2.conf
+/etc/ufw/ufw.conf
+/etc/ufw/sysctl.conf
+/etc/logrotate.conf
+/etc/lvm/lvmloc..., Perms: -rw-r--r-- /etc/passwd
+-rw-r----- /etc/shadow",OUI,À définir,Automatique (script SSH),Sécurité des systèmes d'information
+A.8.24,CONFORME,2026-07-14T16:24:44.306888,"SSH config: Ciphers aes256-ctr,aes192-ctr,aes128-ctr
+MACs hmac..., Certs: 249",OUI,À définir,Automatique (script SSH),Sécurité des systèmes d'information
+A.8.25,A_REVOIR,2026-07-24T09:08:53.529195,Vérification manuelle : ,OUI,Cycle de vie de développement sécurisé,Manuel (saisie),Sécurité des systèmes d'information
+A.8.26,A_REVOIR,2026-07-24T09:08:53.876898,Vérification manuelle : ,OUI,Exigences de sécurité des applications,Manuel (saisie),Sécurité des systèmes d'information
+A.8.27,A_REVOIR,2026-07-24T09:08:54.331275,Vérification manuelle : ,OUI,Principes d'architecture système sécurisée,Manuel (saisie),Sécurité des systèmes d'information
+A.8.28,A_REVOIR,2026-07-24T09:08:54.676468,Vérification manuelle : ,OUI,Codage sécurisé,Manuel (saisie),Sécurité des systèmes d'information
+A.8.29,A_REVOIR,2026-07-24T09:08:55.082504,Vérification manuelle : ,OUI,Tests de sécurité en développement,Manuel (saisie),Sécurité des systèmes d'information
+A.8.3,CONFORME,2026-07-14T16:24:00.291565,"MOTD: , Issue: Ubuntu 22.04.5 LTS \n \l",OUI,À définir,Automatique (script SSH),Sécurité des systèmes d'information
+A.8.30,A_REVOIR,2026-07-24T09:08:55.401408,Vérification manuelle : ,OUI,Développement externalisé,Manuel (saisie),Sécurité des systèmes d'information
+A.8.31,A_REVOIR,2026-07-24T09:08:55.808591,Vérification manuelle : ,OUI,Séparation des environnements,Manuel (saisie),Sécurité des systèmes d'information
+A.8.32,A_REVOIR,2026-07-24T09:08:56.210448,Vérification manuelle : ,OUI,Gestion des changements,Manuel (saisie),Sécurité des systèmes d'information
+A.8.33,A_REVOIR,2026-07-24T09:08:56.612886,Vérification manuelle : ,OUI,Informations de test,Manuel (saisie),Sécurité des systèmes d'information
+A.8.34,A_REVOIR,2026-07-24T09:08:57.017445,Vérification manuelle : ,OUI,Protection des systèmes lors des audits,Manuel (saisie),Sécurité des systèmes d'information
+A.8.4,CONFORME,2026-07-14T16:24:15.975708,"Actifs: 2, Connectés: 1",OUI,À définir,Automatique (script SSH),Sécurité des systèmes d'information
+A.8.5,CONFORME,2026-07-14T16:24:17.158397,"USB: usb_storage non chargé, Mounts: Aucun média monté",OUI,À définir,Automatique (script SSH),Sécurité des systèmes d'information
+A.8.6,CONFORME,2026-07-14T16:24:18.642373,"tmp: 24, disques: /dev/sda2 16%",OUI,À définir,Automatique (script SSH),Sécurité des systèmes d'information
+A.8.7,CONFORME,2026-07-16T22:18:21.908610,"ClamAV: ii  clamav                                 1.5.3+dfsg-0ubuntu0.22.04.2             amd64        anti-virus utility for Unix - command-line interface
+ii  clamav-base                            1.5.3+dfsg-0ubuntu0.22.04.2             all          anti-virus utility for Unix - base package
+ii  clamav-daemon                          1.5.3+dfsg-0ubuntu0.22.04.2             amd64        anti-virus utility for Unix - scanner daemon
+ii  clamav-freshclam                       1.5.3+dfsg-0ubuntu0.22.04.2             amd64        anti-virus utility for Unix - virus database update utility
+ii  libclamav12:amd64                      1.5.3+dfsg-0ubuntu0.22.04.2             amd64        anti-virus utility for Unix - library",OUI,À définir,Automatique (script SSH),Sécurité des systèmes d'information
+A.8.8,CONFORME,2026-07-14T16:05:02.141102,"Updates: 65, Auto-updates: active",OUI,À définir,Automatique (script SSH),Sécurité des systèmes d'information
+A.8.9,A_REVOIR,2026-07-18T22:18:40.542992,Score OpenSCAP: 40,OUI,À définir,Automatique (script SSH),Sécurité des systèmes d'information

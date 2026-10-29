@@ -1,0 +1,66 @@
+import paramiko
+import sqlite3
+from datetime import datetime
+
+HOTE = "192.168.119.142"
+UTILISATEUR = "ghiz"
+CLE_PRIVEE = "/home/kali/.ssh/id_ed25519"
+
+def se_connecter():
+    client = paramiko.SSHClient()
+    client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+    client.connect(HOTE, username=UTILISATEUR, key_filename=CLE_PRIVEE)
+    return client
+
+def verifier_parefeu(client):
+    # Vérifier si nftables est actif
+    stdin, stdout, stderr = client.exec_command("systemctl is-active nftables")
+    actif = stdout.read().decode().strip()
+    
+    # Vérifier s'il y a des règles (politique de base)
+    stdin2, stdout2, stderr2 = client.exec_command("sudo nft list ruleset | grep -c 'hook input'")
+    regles = stdout2.read().decode().strip()
+    
+    # Vérifier ufw en backup
+    stdin3, stdout3, stderr3 = client.exec_command("ufw status | grep -i 'Status: active'")
+    ufw_actif = stdout3.read().decode().strip()
+    
+    return actif, regles, ufw_actif
+
+def enregistrer_resultat(controle, statut, detail):
+    conn = sqlite3.connect("db/conformite.db")
+    cur = conn.cursor()
+    cur.execute("""
+        CREATE TABLE IF NOT EXISTS resultats (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            controle TEXT,
+            date_scan TEXT,
+            statut TEXT,
+            detail TEXT
+        )
+    """)
+    cur.execute(
+        "INSERT INTO resultats (controle, date_scan, statut, detail) VALUES (?, ?, ?, ?)",
+        (controle, datetime.now().isoformat(), statut, detail)
+    )
+    conn.commit()
+    conn.close()
+
+if __name__ == "__main__":
+    client = se_connecter()
+    actif, regles, ufw_actif = verifier_parefeu(client)
+    print(f"nftables actif : {actif}")
+    print(f"Règles nftables : {regles}")
+    print(f"UFW actif : {ufw_actif}")
+
+    # Condition : nftables actif ET au moins une règle OU UFW actif
+    if (actif == "active" and int(regles) > 0) or ufw_actif:
+        statut = "CONFORME"
+    else:
+        statut = "A_REVOIR"
+
+    detail = f"nftables: {actif}, règles: {regles}, UFW: {ufw_actif if ufw_actif else 'inactif'}"
+
+    enregistrer_resultat("A.8.20", statut, detail)
+    print(f"Résultat enregistré : {statut}")
+    client.close()

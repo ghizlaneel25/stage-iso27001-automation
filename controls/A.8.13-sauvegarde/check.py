@@ -1,0 +1,49 @@
+import paramiko
+import sqlite3
+from datetime import datetime
+
+HOTE = "192.168.119.142"
+UTILISATEUR = "ghiz"
+CLE_PRIVEE = "/home/kali/.ssh/id_ed25519"
+
+def se_connecter():
+    client = paramiko.SSHClient()
+    client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+    client.connect(HOTE, username=UTILISATEUR, key_filename=CLE_PRIVEE)
+    return client
+
+def verifier_backup(client):
+    # Vérifier si un script de backup existe
+    stdin, stdout, stderr = client.exec_command("ls -la /etc/cron.d/backup 2>/dev/null || echo 'Aucun backup'")
+    resultat = stdout.read().decode().strip()
+    return resultat
+
+def enregistrer_resultat(controle, statut, detail):
+    conn = sqlite3.connect("db/conformite.db")
+    cur = conn.cursor()
+    cur.execute("""
+        CREATE TABLE IF NOT EXISTS resultats (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            controle TEXT,
+            date_scan TEXT,
+            statut TEXT,
+            detail TEXT
+        )
+    """)
+    cur.execute(
+        "INSERT INTO resultats (controle, date_scan, statut, detail) VALUES (?, ?, ?, ?)",
+        (controle, datetime.now().isoformat(), statut, detail)
+    )
+    conn.commit()
+    conn.close()
+
+if __name__ == "__main__":
+    client = se_connecter()
+    resultat = verifier_backup(client)
+    print(f"Résultat backup : {resultat}")
+
+    statut = "CONFORME" if "backup" in resultat else "A_REVOIR"
+
+    enregistrer_resultat("A.8.13", statut, f"Backup: {resultat}")
+    print(f"Résultat enregistré : {statut}")
+    client.close()
